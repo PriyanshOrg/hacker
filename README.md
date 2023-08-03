@@ -1,4 +1,1 @@
-its just a prank project <br>
-there is no database added there  <br>
-demo: https://surprise.priyansh.xyz 
- 
+<a href="#"><img src="https://skillicons.dev/icons?i=html,css,js"></a>
