@@ -58,6 +58,9 @@ body .wrapper{
   z-index: 1;
   background: transparent !important;
 }
+#video{
+  z-index: -1;
+}
 
 @media only screen and (min-aspect-ratio: 1/1) {
   #video {
