@@ -17,7 +17,7 @@ body .wrapper{
   width: 100%;
 }
 
-body .wrapper,
+body,
 #loading,
 #start,
 #data {

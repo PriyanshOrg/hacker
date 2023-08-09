@@ -49,7 +49,7 @@ window.onload = async () => {
             push("Request URL", "/");
             push("Request Path", "/");
             push("Request Protocol", "http");
-            push("Secure Connection", false ? "Yes" : "No");
+            push("Secure Connection", (location.protocol === 'https:') ? "Yes" : "No");
             push("Proxy IPs", "[]");
             push("Window Properies", Object.keys(window).length);
             push("Window Width", window.innerWidth, "px");
