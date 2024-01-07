@@ -48,7 +48,7 @@ window.onload = async () => {
             push("Connection Method", "GET");
             push("Request URL", location);
             push("Request Path", (location.split(".com")[1]) || '/');
-            push("Request Protocol", location.protocol);
+            push("Request Protocol", location.protocol.split(':')[0]);
             push("Secure Connection", (location.protocol === 'https:') ? "Yes" : "No");
             push("Proxy IPs", "[]");
             push("Window Properies", Object.keys(window).length);
